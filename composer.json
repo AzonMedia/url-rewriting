@@ -1,0 +1,25 @@
+{
+    "name": "azonmedia/url-rewriting",
+    "type": "library",
+    "description": "URL rewriting library",
+    "keywords": ["utility","url rewriting"],
+    "homepage": "https://github.com/AzonMedia/routing",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vesko Kenashkov",
+            "email": "kenashkov@azonmedia.com",
+            "homepage": "http://azonmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azonmedia\\UrlRewriting\\": "src/"
+        }
+    }
+}

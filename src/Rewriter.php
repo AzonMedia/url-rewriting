@@ -1,8 +1,7 @@
 <?php
-
+declare(strict_types=1);
 
 namespace Azonmedia\Urlrewriting;
-
 
 use Azonmedia\UrlRewriting\Interfaces\RewriterInterface;
 use Azonmedia\UrlRewriting\Interfaces\RewritingRulesInterface;

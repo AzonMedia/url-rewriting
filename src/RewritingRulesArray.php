@@ -40,7 +40,7 @@ implements RewritingRulesInterface
      */
     public function rewrite_request(RequestInterface $Request) : RequestInterface
     {
-        $new_uri = $this->rewrite_uri($Request->getUri());
+        $new_uri = $this->rewrite_uri( (string) $Request->getUri());
         $Uri = $Request->getUri();
         //replace the parts of the Uri here with the with...() methods
         $Request = $Request->withUri($Uri);

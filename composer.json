@@ -14,6 +14,7 @@
         }
     ],
     "require": {
+        "azonmedia/components": "dev-master",
         "php": ">=7.2.0",
         "psr/http-message": "^1.0",
         "tivie/htaccess-parser": "^0.2.3"

@@ -4,7 +4,7 @@
     "description": "URL rewriting library",
     "keywords": ["utility","url rewriting"],
     "homepage": "https://github.com/AzonMedia/url0rewriting",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vesko Kenashkov",
